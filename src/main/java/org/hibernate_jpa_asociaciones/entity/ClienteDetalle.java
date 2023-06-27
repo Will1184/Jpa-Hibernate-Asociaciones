@@ -16,7 +16,6 @@ public class ClienteDetalle {
     @JoinColumn(name = "cliente_detalle_id")
     private Cliente cliente;
 
-
     public ClienteDetalle() {
 
     }
@@ -62,7 +61,6 @@ public class ClienteDetalle {
     public String toString() {
         return "id:" + id +
                 ", prime: " + prime +
-                ", puntosAcumulados: " + puntosAcumulados +
-                ", cliente: " + cliente;
+                ", puntosAcumulados: " + puntosAcumulados;
     }
 }
